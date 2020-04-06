@@ -82,24 +82,22 @@ end
 
 
 # def get_english_meaning(data, emoticon)
-#   # code goes here
 #   emot_library = load_library(data)
   
 #   emot_library.each do |key,value|
   
 #     value.each do |lang_key, emot_value|
-# binding.pry      
 #       if emot_library[key][emot_value] == emoticon
 #         return emot_library[key]
 #       end
 #     end
+
 #   end
 # end
 
 # def get_japanese_emoticon(data, emoticon)
-#   # code goes here
 #   e_library = load_library(data)
-  
+
 #   e_library.each do |key,value|
 #     e_library[value].each do |lang_key, emot_value|
 #       if e_library[value][emot_value] == emoticon
